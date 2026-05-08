@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(215, 220, 238);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    
+}
+
+
+/* Cuadro principal */
+div {
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+     border-radius: 5px;
+}
+.pepe{
+    width: 65%;
+     border-radius: 5px;
+
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: rgb(165, 89, 42);
+}
+
+/* Línea */
+hr {
+    border: 1px solid #d8b08c;
+}
+
+/* Cuadros repetidos */
+.aña {
+    border: 3px solid #274766;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #c2e2f1;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+/* Títulos de libros */
+.aña h2 {
+    color: #274766;
+} 
+
+.letra {
+    width: 90%;
+    border-radius: 5px;
+    background-color: #345c82;
+}
+
+/* Cuadro del texto interno */
+.aña div {
+    border: 3px solid #14477b;
+    padding: 20px;
+    background-color: #d6f2ff;
+}
+
+.ul{
+    border: 2px solid #d8c49c;
+    background-color: #f5e7c8;
+    padding: 20px;
+    color: brown;
+}
+
+h2{
+    color: #0c2c4d;
+}
