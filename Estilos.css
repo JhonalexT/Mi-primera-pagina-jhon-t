@@ -1,72 +1,86 @@
-body {
-    background-color: rgb(215, 220, 238);
-    font-family: Arial, sans-serif;
+*{
     margin: 0;
-    padding: 20px;
-    
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-/* Cuadro principal */
-div {
-    background-color: white;
-    padding: 20px;
-    margin: auto;
-    width: 90%;
-     border-radius: 5px;
+body{
+    background-color: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .pepe{
-    width: 65%;
-     border-radius: 5px;
-
+    width: 760px;
+    margin: 20px auto;
+    background-color: #fffdf8;
+    border: 1px solid #e5d8c2;
+    padding: 20px;
 }
 
-/* Título principal */
-h1 {
+h1{
+    color: #d8862b;
     text-align: center;
-    color: rgb(165, 89, 42);
+    font-size: 34px;
 }
 
-/* Línea */
-hr {
-    border: 1px solid #d8b08c;
+hr{
+    border: 1px solid #e6c7a4;
 }
 
-/* Cuadros repetidos */
-.aña {
-    border: 3px solid #274766;
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: #c2e2f1;
-    text-align: justify;
-    border-radius: 5px;
+.aña{
+    border: 2px solid #b7d4de;
+    background-color: #f9fcfd;
+    padding: 15px;
+    margin-bottom: 25px;
 }
 
-/* Títulos de libros */
-.aña h2 {
-    color: #274766;
-} 
-
-.letra {
-    width: 90%;
-    border-radius: 5px;
-    background-color: #345c82;
+.aña h2{
+    color: #234f73;
+    font-size: 30px;
+    margin-bottom: 15px;
 }
 
-/* Cuadro del texto interno */
-.aña div {
-    border: 3px solid #14477b;
-    padding: 20px;
-    background-color: #d6f2ff;
+.aña p{
+    font-size: 19px;
+    color: #333;
+    line-height: 30px;
+}
+
+.letra{
+    border: 2px solid #b7d4de;
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.letra p{
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .ul{
-    border: 2px solid #d8c49c;
-    background-color: #f5e7c8;
-    padding: 20px;
-    color: brown;
+    background-color: #fff8dc;
+    border: 1px solid #f0d68a;
+    padding: 18px;
 }
 
-h2{
-    color: #0c2c4d;
+.ul h2{
+    color: #2c6ca3;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.ul p{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.ul ul{
+    margin-left: 40px;
+}
+
+.ul li{
+    color: #f20404;
+    font-size: 18px;
+    margin-bottom: 8px;
 }
